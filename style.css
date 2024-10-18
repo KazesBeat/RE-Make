@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    background-color: beige;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+   }
+
+ h4{
+    text-align: center;
+}
+li{
+    color: rgb(0, 0, 0);
+    background-color:rgb(210, 142, 255);
+    text-align: center;
+   }
+ 
+ p {
+    color: black;
+    background-color: beige;
+    text-align: center;
+   }
+
+   /* * means apply to all
+   borders have 3 elements size style colour  */
+ ol{
+    border: 2px solid purple;
+    text-align: center;
+    /* margin: 3px;
+    padding: 1px; */
+ }
+ .grip{
+    color:blueviolet;
+ }
+ 
+ ul{
+    list-style-type: none;
+ }
+
+ img{
+    margin-top: 5rem;
+    margin-left: 20rem;
+ }
+
+ h1:hover {
+   color:red;
+   transition:0.2s;
+}
